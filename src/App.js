@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <h1>To-Do List</h1>
       
-      <ToDoList todos={todos} />
+      <ToDoList todos={todos} setTodos={setTodos} />
       <AddToDo setTodos={setTodos} />
     </div>
   );

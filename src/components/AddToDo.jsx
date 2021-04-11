@@ -7,7 +7,7 @@ const AddToDo = ({ setTodos }) => {
         event.preventDefault();
         let text = event.target.elements.addToDo.value;
         const todo = {
-            id: 4,
+            id: Math.floor(Math.random() * 1000),
             text,
             done: false
         };
