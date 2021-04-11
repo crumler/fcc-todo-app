@@ -1,5 +1,6 @@
 import './App.css';
 import ToDoList from './components/ToDoList';
+import AddToDo from './components/AddToDo';
 
 function App() {
   const todos = [
@@ -13,6 +14,7 @@ function App() {
       <h1>To-Do List</h1>
       
       <ToDoList todos={todos} />
+      <AddToDo />
     </div>
   );
 }
